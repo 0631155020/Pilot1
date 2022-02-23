@@ -2,4 +2,22 @@
     <string name="app_name">Pilot</string>
     <string name="ppl">PPL</string>
     <string name="cpl">CPL</string>
+    <string name="title_activity_Сpl">СPL</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="air_law">Воздушное право</string>
+    <string name="fuel_system">Загальне знання ПС</string>
+    <string name="plane">ЛТХ та планування</string>
+    <string name="possibility">Можливості та обмеження людини</string>
+    <string name="weather">Метереологія</string>
+    <string name="navigation">Навігація</string>
+    <string name="use_derection">Експлуатаційні процедури</string>
+    <string name="flight">Принципи польоту</string>
+    <string name="conect">Связь</string>
 </resources>

@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pilot">
         <activity
+            android:name=".Call"
+            android:exported="false" />
+        <activity
+            android:name=".Flight"
+            android:exported="false" />
+        <activity
+            android:name=".Fuel_system"
+            android:exported="false" />
+        <activity
+            android:name=".LTX"
+            android:exported="false" />
+        <activity
+            android:name=".Opereting"
+            android:exported="false" />
+        <activity
+            android:name=".People"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation"
+            android:exported="false" />
+        <activity
+            android:name=".law"
+            android:exported="false" />
+        <activity
+            android:name=".weather2"
+            android:exported="false" />
+        <activity
+            android:name=".CPL"
+            android:exported="false" />
+        <activity
             android:name=".PPL_activity"
             android:exported="false" />
         <activity
