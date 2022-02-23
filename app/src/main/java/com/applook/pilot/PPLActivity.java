@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PPL_activity extends AppCompatActivity {
+public class PPLActivity extends AppCompatActivity {
     Button weather_button;
     Button law_button;
     Button nav_button;
@@ -27,7 +27,7 @@ public class PPL_activity extends AppCompatActivity {
         nav_button = findViewById(R.id.navigation_plane);
         people_button = findViewById(R.id.people);
         oper_button = findViewById(R.id.operating);
-        law_button = findViewById(R.id.ltx);
+        ltx_button = findViewById(R.id.ltx_btn);
         fuel_button = findViewById(R.id.fuel_system1);
         flight_button = findViewById(R.id.flight1);
         call_button = findViewById(R.id.call_p);
@@ -68,7 +68,7 @@ public class PPL_activity extends AppCompatActivity {
             }
         });
         ltx_button.setOnClickListener(v -> {
-            Intent intent = new Intent(PPL_activity.this, LTX.class);
+            Intent intent = new Intent(PPLActivity.this, LTX.class);
             startActivity(intent);
         });
         fuel_button.setOnClickListener(new View.OnClickListener() {

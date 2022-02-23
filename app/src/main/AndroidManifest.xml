@@ -40,7 +40,7 @@
             android:name=".CPL"
             android:exported="false" />
         <activity
-            android:name=".PPL_activity"
+            android:name=".PPLActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

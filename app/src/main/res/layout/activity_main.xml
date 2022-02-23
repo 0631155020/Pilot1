@@ -8,18 +8,26 @@
     tools:context=".MainActivity">
 
 
-    <Button
+    <androidx.cardview.widget.CardView
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ppl"
-        android:background="@color/teal_200"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/teal_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322" />
+        app:layout_constraintVertical_bias="0.322"
+        app:cornerRadius="16dp"
+        app:cardElevation="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="italic|bold"
+            android:text="@string/ppl"/>
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/button2"
