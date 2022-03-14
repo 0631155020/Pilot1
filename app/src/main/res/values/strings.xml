@@ -20,4 +20,11 @@
     <string name="use_derection">Експлуатаційні процедури</string>
     <string name="flight">Принципи польоту</string>
     <string name="conect">Связь</string>
+    <string name="books">книги</string>
+    <string name="test">тести</string>
+    <string name="random">20 случайних вопросов</string>
+    <string name="mistake">Робота над ошибками</string>
+    <string name="difficult">Избраное</string>
+    <string name="back">Назад</string>
+    <string name="level">Уровень :</string>
 </resources>
